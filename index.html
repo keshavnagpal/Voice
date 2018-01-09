@@ -346,7 +346,7 @@
 				zoomTo([root.x, root.y, root.r*2 + margin]);
 
 
-				d3.json("https://jsonblob.com/api/jsonBlob/579b31ace4b0dc55a4e8be07",function(error, data){
+				d3.json("https://api.myjson.com/bins/3mrrn",function(error, data){
 					var nodess = pack.nodes(data);
 
 					d3.select("body")
